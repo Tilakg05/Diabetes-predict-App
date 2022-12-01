@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Symptoms Diabetes</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+    .topnav {
+        background-color: #333;
+        overflow: hidden;
+    }
+
+        /* Style the links inside the navigation bar */
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 2px 100px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+            /* Change the color of links on hover */
+            .topnav a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+
+            /* Add a color to the active/current link */
+            .topnav a.active {
+                background-color: #04AA6D;
+                color: white;
+            }
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body style="background-color:lightgray">
+    <div class="container">
+        <div class="topnav">
+
+            <a href="{{ url_for('general') }}">
+                <p>General</p>
+            </a>
+            <a href="{{ url_for('infodiabetes') }}">
+                <p>InfoDiabetes</p>
+            </a>
+            <a href="{{ url_for('symptoms') }}">
+                <p> Symptoms</p>
+            </a>
+            <a href="{{ url_for('prediabetes') }}">
+                <p>PreDiabetes</p>
+            </a>
+            <a href="{{ url_for('contact') }}">
+                <p>Contact</p>
+            </a>    
+        </div>
+
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+        <h1 class="w3-center">Symptoms of Diabetes</h1><br>
+        <h5 class="w3-center">A person with diabetes mellitus runs the risk of developing heart disease, stroke, and kidney failure, which is a life-threatening condition. By making the CDC-recommended dietary and lifestyle modifications, you can manage your diabetes.</h5>
+        <p class="w3-large"> Being thirstier than normal : <span class="w3-tag w3-light-grey"></span></p>
+        <p class="w3-large w3-text-darkgrey w3-hide-medium">1. Shedding pounds without trying </p>
+        <p class="w3-large w3-text-darkgrey w3-hide-medium">2. Get Regular Exercise</p>
+        <p class="w3-large w3-text-darkgrey w3-hide-medium">3. Felling tired and weakness</p>
+        <p class="w3-large w3-text-darkgrey w3-hide-medium">4. Do not Smoke</p>
+        <p class="w3-large w3-text-darkgrey w3-hide-medium">5. Avoid Stress</p>
+        <p class="w3-large w3-text-darkgrey w3-hide-medium">6. Do not eat a junk foods</p>
+        <p class="w3-large w3-text-darkgrey w3-hide-medium">6. Test your blood sugar everyday</p>
+    </div>
+
+    <h1>The following diet is recommended for Type 2 diabetes.</h1>
+
+    <img src="https://pbs.twimg.com/media/DgIO4UCUYAAr3XL.jpg:large" alt="Start the test" title="Start the test" style="width:200px;height:200px;" align="right">
+
+    <h2>The diet specifies clean and healthy eating habits.</h2>
+    <body>
+        <p>While no two diabetes diets will look the same, certain foods are considered staples for people with this disease because they support a healthy weight and blood sugar level. </p>
+        <p>They include:</p>
+
+        <p>->Nonstarchy vegetables, such as broccoli and high-fiber fruit like apples</p>
+        <p>->Lean sources of protein, such as boneless, skinless chicken, turkey, and fatty fish, like salmon</p>
+        <p>->Healthy fats, such as nuts, nut butter, and avocado (in moderation)</p>
+        <p>->Whole grains, like quinoa and barley</p>
+        <p>->Nonfat or lowfat dairy, like milk and plain yogurt</p>
+
+    </body>
+</html>

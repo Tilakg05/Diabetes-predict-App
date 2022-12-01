@@ -1,0 +1,12 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:rgb(229, 234, 237);
+    font-size:12px;
+}
+.container{
+    background:#fff;
+    display:flex;
+}
